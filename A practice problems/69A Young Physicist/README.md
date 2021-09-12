@@ -51,16 +51,19 @@ YES
 
 ```
 n = int(input())
-sum1 = 0
+sumX, sumY, sumZ = 0, 0, 0
 
 for _ in range(0, n):
     x, y, z = list(map(int, input().split()))
-    sum1 += x+y+z
+    sumX += x
+    sumY += y
+    sumZ += z
 
-if sum1 != 0:
+if sumX != 0 or sumY != 0 or sumZ != 0:
     print("NO")
 else:
     print("YES")
+
 ```
 
 # What did I learned ?
