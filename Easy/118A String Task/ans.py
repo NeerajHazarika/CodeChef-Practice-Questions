@@ -1,12 +1,12 @@
-s=input()
+s = input()
 tempList = []
 # listIndex = 0
 
 for char in s:
 
-    char = char.lower()     
+    char = char.lower()
 
-    if char!='a' and char!='e' and char!='i' and char!='o' and char!='u':
+    if char != 'a' and char != 'e' and char != 'i' and char != 'o' and char != 'u' and char != 'y':
         tempList.append('.')
         tempList.append(char)
 
