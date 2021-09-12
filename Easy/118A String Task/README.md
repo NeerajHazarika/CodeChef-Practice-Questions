@@ -85,6 +85,7 @@ print(tempList)
 - since strings are immutable so we use list to copy those char in strings which are needed as per conditions (given in question)
 - how to convert list back to string with the help of map `''.join(map(str,tempList))`
 - interesting forum one line solution combining list comprehension and join function `''.join('.'+x for x in input().lower()if x not in'aeyoui')`
+- how to preview markdown in VSCODE `ctrl+shift+V`
 
 # Forum one line solution
 
