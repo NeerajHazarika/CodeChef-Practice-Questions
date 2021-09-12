@@ -91,3 +91,9 @@ print(tempList)
 ```
 print(''.join('.'+x for x in input().lower()if x not in'aeyoui'))
 ```
+
+# Reference
+
+- https://www.geeksforgeeks.org/python-program-to-convert-a-list-to-string/
+- https://stackoverflow.com/questions/43989654/mutating-strings-in-python
+- https://www.programiz.com/python-programming/methods/string/lower
