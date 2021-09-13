@@ -63,6 +63,7 @@ else:
 - iter function which creates an iterator object from a given object like string,set, tuples etc.
 - intersting approach to detect if an ordered string exist inside another string
 - semicolon can be used in python so that we continue our next line of code in the same line
+- elements which are already scanned in iter are not scanned again
 
 # Correct forum approach
 
