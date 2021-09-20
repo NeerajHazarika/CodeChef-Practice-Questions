@@ -28,11 +28,5 @@ if lookupTable[2] and lookupTable[1] >= 2:
     lookupTable[1] -= 2
 
 sum1 += math.ceil((lookupTable[1]+lookupTable[2])/4)
-# if lookupTable[2] and lookupTable[1] >= 2:
-#     sum1 += 1
-#     lookupTable[1] -= 2
-
-# if lookupTable[1] >= 1:
-#     sum1 += lookupTable[1]
 
 print(sum1)
